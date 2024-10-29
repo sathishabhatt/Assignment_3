@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   basePath: "/Assignment_3",
+  output: "export",
   images: {
     remotePatterns: [
       {
@@ -8,9 +9,6 @@ const nextConfig = {
         hostname: "images.unsplash.com",
       },
     ],
-  },
-  experimental: {
-    serverActions: true,
   },
 };
 
