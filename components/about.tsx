@@ -22,12 +22,11 @@ export default function About() {
         After graduating with a degree in{" "}
         <span className="font-medium">IT</span>, I decided to shift gears and follow my passion for programming. I dedicated myself to learning UI/UX design through online courses, hands-on projects, and a lot of experimentation. {" "}
         <span className="font-medium">What I love most about design is the challenge of creating intuitive, visually appealing experiences that genuinely make people's lives easier.</span>.{" "}
-        <span className="italic">I focus on responsive and interactive design, primarily using Figma, Adobe XD, and Sketch, and I’m also building my skills in front-end development with React (Next.js). I’m always eager to explore new tools and trends, as I believe there’s always something new to learn in design.</span>  Outside of design, you’ll often find me trying out new recipes, catching up on the latest in film, or exploring different art styles for inspiration. <span className="underline"> I’m also</span>  learning guitar, diving into history and philosophy, and expanding my perspectives along the way. I'm excited to find a role where I can bring my creativity and problem-solving skills to a collaborative team.{" "}
+        <span className="italic">I focus on responsive and interactive design, primarily using Figma, Adobe XD, and Sketch, and I’m also building my skills in front-end development with React (Next.js).{" "}
         <span className="font-medium">
           React, Next.js, Node.js, and MongoDB
         </span>
-        . I am also familiar with TypeScript and Prisma. I am always looking to
-        learn new technologies. I am currently looking for a{" "}
+        I’m always eager to explore new tools and trends, as I believe there’s always something new to learn in design.</span>  Outside of design, you’ll often find me trying out new recipes, catching up on the latest in film, or exploring different art styles for inspiration. <span className="underline"> I’m also</span>  learning guitar, diving into history and philosophy, and expanding my perspectives along the way. I'm excited to find a role where I can bring my creativity and problem-solving skills to a collaborative team.{" "}
         <span className="font-medium">full-time position</span> as a software
         developer.
       </p>
