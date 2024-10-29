@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: "/Assignment_3",
   images: {
     remotePatterns: [
       {
