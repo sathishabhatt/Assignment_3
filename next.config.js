@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   basePath: "/Assignment_3",
-  output: "export",
+  output: process.env.NODE_ENV === "development" ? "standalone" : "export",
   images: {
     remotePatterns: [
       {
