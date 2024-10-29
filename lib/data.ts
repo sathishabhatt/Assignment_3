@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import travelImg from "@/public/travel.jpeg";
+import portfolioImg from "@/public/potfolio.jpeg";
+import donutImg from "@/public/donut.jpg";
 
 export const links = [
   {
@@ -62,25 +62,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Travel Destination App",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Designed a travel app to help users discover and plan trips seamlessly. Conducted user research to identify key features, including destination recommendations and hotel listings. Created a clean, intuitive interface in Figma with interactive elements like search and location-based suggestions. Collaborated closely with a small team, gaining hands-on experience in UI/UX design and user flow creation.",
+    tags: ["React", "Next.js", 'CSS','HTML','JS'],
+    imageUrl: travelImg,
   },
   {
-    title: "rmtDev",
+    title: "Donut Shop Web App",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
+      "Developed a responsive web app for a donut shop to enhance online ordering and customer engagement. Designed a user-friendly interface that allows customers to browse flavors, customize orders, and schedule pickups. Focused on creating an intuitive experience with a visually appealing layout, enabling easy navigation and a smooth ordering process.",
     tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+    imageUrl: donutImg,
   },
   {
-    title: "Word Analytics",
+    title: "Personal Portfolio Website",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
+      "Designed and developed a personal portfolio website to showcase my design projects and growing skill set. Created a responsive and interactive layout using Figma, ensuring an intuitive user flow for easy navigation. Integrated basic HTML/CSS to bring the design to life and practiced building cohesive visual branding to reflect my personality and style.",
     tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+    imageUrl: portfolioImg,
   },
 ] as const;
 
