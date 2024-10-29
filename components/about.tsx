@@ -27,18 +27,10 @@ export default function About() {
           React, Next.js, Node.js, and MongoDB
         </span>
         I’m always eager to explore new tools and trends, as I believe there’s always something new to learn in design.</span>  Outside of design, you’ll often find me trying out new recipes, catching up on the latest in film, or exploring different art styles for inspiration. <span className="underline"> I’m also</span>  learning guitar, diving into history and philosophy, and expanding my perspectives along the way. I'm excited to find a role where I can bring my creativity and problem-solving skills to a collaborative team.{" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        <span className="font-medium"> </span>  
       </p>
 
-      <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar.
-      </p>
+     
     </motion.section>
   );
 }
